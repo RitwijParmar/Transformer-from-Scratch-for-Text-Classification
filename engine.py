@@ -42,4 +42,4 @@ def train_model(model, train_loader, val_loader, optimizer, scheduler, criterion
         history['val_acc'].append(val_acc)
         
         print(f'Epoch: {epoch+1:02} | Train Loss: {train_loss:.3f} | Val. Loss: {val_loss:.3f} | Val. Acc: {val_acc*100:.2f}%')
-    return history
+    return history# Minor code style adjustments
